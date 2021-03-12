@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins';
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #151515;
+}
+
+.about {
+    padding-top: 6rem;
+    background-color: #151515;
+}
+
+.about a {
+    color: white;
+}
+
+.recent {
+    background-color: #191919;
+}
+
+.portfolio {
+    background-color: #151515;
+}
+
+.contact {
+    background-color: #191919;
+}
+
+footer {
+    background-color: #151515;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.btn {
+    background-color: #F6DF2F;
+}
