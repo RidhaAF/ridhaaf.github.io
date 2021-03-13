@@ -2,9 +2,22 @@ body {
     font-family: 'Poppins';
 }
 
-.jumbotron {
-    padding-top: 6rem;
+.navbar {
     background-color: #151515;
+}
+
+.nav-link.active {
+    color: #F6DF2F !important;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #f6df2fa9 !important;
+}
+
+.navbar-brand,
+h2 {
+    color: #F6DF2F !important;
 }
 
 .about {
@@ -16,20 +29,28 @@ body {
     color: white;
 }
 
-.recent {
-    background-color: #191919;
+
+.my-role {
+    color: #999 !important;
 }
 
-.portfolio {
-    background-color: #151515;
-}
-
+.recent,
 .contact {
-    background-color: #191919;
+    background-color: #222;
 }
 
+.portfolio,
 footer {
     background-color: #151515;
+}
+
+footer a {
+    color: #F6DF2F;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f6df2fa9 !important;
 }
 
 section {
@@ -38,4 +59,12 @@ section {
 
 .btn {
     background-color: #F6DF2F;
+}
+
+.btn-send:hover {
+    background-color: #f6df2fa9;
+}
+
+.bi-icon:hover {
+    color: #F6DF2F;
 }
