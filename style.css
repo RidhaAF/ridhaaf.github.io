@@ -12,6 +12,10 @@ body {
 }
 
 .nav-link:hover {
+    color: #F6DF2F !important;
+}
+
+.nav-link:active {
     color: #f6df2fa9 !important;
 }
 
@@ -34,14 +38,58 @@ h2 {
     color: #999 !important;
 }
 
-.recent,
+.bi-icon:hover {
+    color: #F6DF2F;
+}
+
+.bi-icon:active {
+    color: #f6df2fa9 !important;
+}
+
+.skills,
 .contact {
     background-color: #222;
+}
+
+.skills,
+i p {
+    color: white;
+    line-height: 0.3;
+}
+
+.level {
+    color: #999;
+    font-size: small;
 }
 
 .portfolio,
 footer {
     background-color: #151515;
+}
+
+.card {
+    background-color: #222;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F6DF2F;
+}
+
+.btn {
+    background-color: #F6DF2F;
+}
+
+.btn-send:hover {
+    background-color: #f6df2fa9;
+}
+
+.btn-send:hover {
+    background-color: #f6df21a9;
 }
 
 footer a {
@@ -53,18 +101,10 @@ footer a:hover {
     color: #f6df2fa9 !important;
 }
 
+footer a:active {
+    color: #999 !important;
+}
+
 section {
     padding-top: 5rem;
-}
-
-.btn {
-    background-color: #F6DF2F;
-}
-
-.btn-send:hover {
-    background-color: #f6df2fa9;
-}
-
-.bi-icon:hover {
-    color: #F6DF2F;
 }
