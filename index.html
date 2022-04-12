@@ -1,520 +1,412 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-  <!-- Devicon Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
-
-  <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
-  <!-- My CSS -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="img/favicon.png">
-
-  <title>Portfolio | Ridha Ahmad Firdaus</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ridha Ahmad Firdaus</title>
+    <link href="dist/output.css" rel="stylesheet">
 </head>
 
-<body id="about">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-bolder" href="#about">Ridha Ahmad Firdaus</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navbar -->
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="py-4 px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-0">Ridha Ahmad Firdaus</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
 
-  <!-- About -->
-  <section id="about" class="about">
-    <div class="container text-white">
-      <div class="row justify-content-center">
-        <div class="col-md-3 text-center mb-4">
-          <img src="img/ridha.jpg" alt="RidhaAF" width="180" class="rounded-circle">
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36 lg:pt-24">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Well, hello there 👋🏻<span
+                            class="block font-bold text-dark text-4xl lg:text-5xl">I'm Ridha Ahmad Firdaus</span></h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-xl">Mobile App Developer | Web
+                        Developer | UI/UX Designer</h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed">Currently learning
+                        Flutter 👨🏻‍💻.</span></p>
+                    <a href="#"
+                        class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hire
+                        Me</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-0 lg:right-0">
+                        <img src="dist/img/ridha.png" alt="Ridha Ahmad Firdaus" class="max-w-full mx-auto">
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#059669"
+                                    d="M35.8,-54.7C45.7,-42.2,52.4,-30.7,54.4,-19C56.3,-7.3,53.4,4.5,51.5,18.7C49.6,32.9,48.7,49.3,40.3,56.8C31.8,64.2,15.9,62.7,2.4,59.4C-11.2,56.1,-22.4,51.2,-35.1,45.1C-47.9,39.1,-62.2,32,-65.3,21.5C-68.3,10.9,-60.1,-3,-56.4,-19.4C-52.6,-35.9,-53.2,-55,-44.5,-67.9C-35.8,-80.8,-17.9,-87.6,-2.5,-84.2C13,-80.8,26,-67.2,35.8,-54.7Z"
+                                    transform="translate(100 100)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h5 class="fw-bold mb-3">Well, hello there..</h5>
-          <h2 class="fw-bolder mb-3">I'm Ridha Ahmad Firdaus</h2>
-          <p class="mb-3 my-role">Student | Freelancer <br> Mobile App Developer | Web Developer <br> UI/UX Designer</p>
-        </div>
-        <div class="text-center">
-          <a href="https://github.com/ridhaaf" target="_blank"><i class="bi bi-github fs-4 pe-3 bi-icon"></i></a>
-          <a href="https://www.linkedin.com/in/ridhaaf/" target="_blank"><i
-              class="bi bi-linkedin fs-4 pe-3 bi-icon"></i></a>
-          <a href="https://www.instagram.com/ridhaaf/" target="_blank"><i
-              class="bi bi-instagram fs-4 pe-3 bi-icon"></i></a>
-          <a href="https://twitter.com/ridhaaf_" target="_blank"><i class="bi bi-twitter fs-4 pe-3 bi-icon"></i></a>
-          <a href="mailto:ridhaaf@gmail.com"><i class="bi bi-envelope fs-4 pe-3 bi-icon"></i></a>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#222" fill-opacity="1"
-        d="M0,64L40,96C80,128,160,192,240,202.7C320,213,400,171,480,144C560,117,640,107,720,133.3C800,160,880,224,960,229.3C1040,235,1120,181,1200,181.3C1280,181,1360,235,1400,261.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- End About -->
+    </section>
+    <!-- Hero Section End -->
 
-  <!-- Skills -->
-  <section id="skills" class="skills">
-    <div class="container">
-      <div class="row text-center mb-5">
-        <div class="col text-white">
-          <h2 class="fw-bolder">Skills</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center text-center mb-3">
-        <div class="col mb-3">
-          <p><i class="devicon-dart-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">Dart</p>
-          <p class="level fst-italic">Beginner</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-flutter-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">Flutter</p>
-          <p class="level fst-italic">Beginner</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-php-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">PHP</p>
-          <p class="level fst-italic">Intermediate</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-laravel-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">Laravel</p>
-          <p class="level fst-italic">Intermediate</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-codeigniter-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">CodeIgniter</p>
-          <p class="level fst-italic">Intermediate</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-mysql-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">MySQL</p>
-          <p class="level fst-italic">Beginner</p>
-        </div>
-      </div>
-      <div class="row justify-content-center text-center mt-5">
-        <div class="col mb-3">
-          <p><i class="devicon-java-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">Java</p>
-          <p class="level fst-italic">Intermediate</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-kotlin-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">Kotlin</p>
-          <p class="level fst-italic">Beginner</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-html5-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">HTML</p>
-          <p class="level fst-italic">Intermediate</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-css3-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">CSS</p>
-          <p class="level fst-italic">Intermediate</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-javascript-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">JavaScript</p>
-          <p class="level fst-italic">Beginner</p>
-        </div>
-        <div class="col mb-3">
-          <p><i class="devicon-figma-plain fs-1 "></i></p>
-          <br>
-          <p class="language fw-bold">Figma</p>
-          <p class="level fst-italic">Intermediate</p>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#151515" fill-opacity="1"
-        d="M0,256L40,240C80,224,160,192,240,176C320,160,400,160,480,186.7C560,213,640,267,720,272C800,277,880,235,960,197.3C1040,160,1120,128,1200,106.7C1280,85,1360,75,1400,69.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- End Recent -->
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 mx-auto lg:w-5/12">
+                    <h4 class="font-bold text-primary text-lg mb-3">About Me</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Full-Time Learner</h2>
+                    <p class="text-base text-secondary text-justify max-w-xl lg:text-lg">What’s up! I am Ridha
+                        Ahmad Firdaus a final year student at Universitas Pasundan, majoring Informatics Engineering.
+                        I'm living in Bandung, West Java, Indonesia.</p>
+                </div>
+                <div class="w-full px-4 mx-auto lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Let's be friends!</h3>
+                    <p class="text-base text-secondary text-justify max-w-xl lg:text-lg mb-6">I'm studying Programming,
+                        Web Development, Mobile App Development, UI/UX Design, and also very interested in Tech.</p>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Follow my social media account below
+                        ⬇️</p>
+                    <div class="flex items-center">
+                        <!-- GitHub -->
+                        <a href="https://github.com/RidhaAF" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                        </a>
 
-  <!-- Project -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <div class="row text-center mb-5">
-        <div class="col text-white">
-          <h2 class="fw-bolder">Portfolio</h2>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/ridhaaf/" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/ridhaaf/" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                            </svg>
+                        </a>
+
+                        <!-- Twitter -->
+                        <a href="https://www.twitter.com/ridhaaf_/" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Twitter</title>
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:ridhaaf@gmail.com" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Gmail</title>
+                                <path
+                                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/cryptocurrency_app" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/19.png" class="card-img-top" alt="Portfolio 19">
-              <div class="card-body">
-                <p class="card-text">Jun '21 | Cryptocurrency App with Flutter | Original UI Design from <a
-                    href="https://www.figma.com/community/file/904706493879532215" target="_blank">Figma Community</a>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Latest Project</h2>
+                    <p class="font-medium text-sm text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Odio nisi aliquid quo rem laborum error quis animi dicta. Molestias, ratione?
+                    </p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
+                            alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem ipsum dolor sit amet</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Fugiat, nostrum. Placeat culpa nihil repellendus deleniti.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+                            alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem ipsum dolor sit amet</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Fugiat, nostrum. Placeat culpa nihil repellendus deleniti.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                            alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem ipsum dolor sit amet</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Fugiat, nostrum. Placeat culpa nihil repellendus deleniti.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                            alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Lorem ipsum dolor sit amet</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Fugiat, nostrum. Placeat culpa nihil repellendus deleniti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Clients Section Start -->
+    <section id="clients" class="pt-36 pb-32 bg-slate-800">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Who Have Worked Together</h2>
+                    <p class="font-medium text-sm text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ducimus deleniti quas provident.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 xl:w-8/12 xl:mx-auto">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="https://www.gojek.com/" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Gojek_logo_2019.svg/2560px-Gojek_logo_2019.svg.png"
+                            alt="Gojek">
+                    </a>
+                    <a href="https://www.tokopedia.com/" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Tokopedia.svg/1280px-Tokopedia.svg.png"
+                            alt="Tokopedia">
+                    </a>
+                    <a href="https://www.grab.com/" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Grab_Logo.svg/400px-Grab_Logo.svg.png?20200916142301"
+                            alt="Grab">
+                    </a>
+                    <a href="https://www.ovo.id/" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Logo_ovo_purple.svg/2560px-Logo_ovo_purple.svg.png"
+                            alt="Ovo">
+                    </a>
+                    <a href="https://www.xendit.co/" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="https://www.xendit.co/wp-content/uploads/2020/03/XENDIT-LOGOArtboard-1@2x.png"
+                            alt="Xendit">
+                    </a>
+                    <a href="https://www.anteraja.id/" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="https://1.bp.blogspot.com/-_tPtINW4X6Y/YTTahY2lC7I/AAAAAAAAI5o/3-edRsMpdYQ3wYJSrKzKkJnWrhEejiiBgCLcBGAsYHQ/s1254/logo-anteraja.png"
+                            alt="Anteraja">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hire Me</h2>
+                    <p class="font-medium text-sm text-secondary md:text-lg">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Nihil, repellendus?</p>
+                </div>
+            </div>
+            <form>
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base font-bold text-primary">Name</label>
+                        <input type="text" id="name"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base font-bold text-primary">Email</label>
+                        <input type="email" id="email"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="message" class="text-base font-bold text-primary">Message</label>
+                        <textarea type="message" id="message"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button
+                            class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap justify-around">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">Ridha Ahmad Firdaus</h2>
+                    <h3 class="font-bold text-2xl mb-2">Contact Us</h3>
+                    <p>ridhaaf@gmail.com</p>
+                    <p>Jl. Jalan Sore No. 123</p>
+                    <p>Bandung, Jawa Barat, Indonesia</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3 lg:text-right">
+                    <h3 class="font-semibold text-xl text-white mb-5">Links</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">About</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#clients" class="inline-block text-base hover:text-primary mb-3">Clients</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- GitHub -->
+                    <a href="https://github.com/RidhaAF" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/ridhaaf/" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>LinkedIn</title>
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/ridhaaf/" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Instagram</title>
+                            <path
+                                d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                        </svg>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a href="https://www.twitter.com/ridhaaf_/" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Twitter</title>
+                            <path
+                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                        </svg>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:ridhaaf@gmail.com" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Gmail</title>
+                            <path
+                                d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                        </svg>
+                    </a>
+                </div>
+                <p class="font-medium text-sm text-slate-500 text-center">© 2022 | Made with <span
+                        class="text-pink-500">❤️</span> by <a href="https://instagram.com/ridhaaf/" target="_blank"
+                        class="font-bold text-primary hover:opacity-80">Ridha Ahmad Firdaus</a>, using
+                    <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500 hover:opacity-80">
+                        Tailwind CSS</a>.
                 </p>
-              </div>
             </div>
-          </a>
         </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/payment_app" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/18.png" class="card-img-top" alt="Portfolio 18">
-              <div class="card-body">
-                <p class="card-text">Jun '21 | Flutter Basic State Management | Payment App with Flutter | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/covid_19_app" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/17.png" class="card-img-top" alt="Portfolio 17">
-              <div class="card-body">
-                <p class="card-text">Jun '21 | Statistics Covid-19 App with Flutter using API from <a
-                    href="https://kawalcorona.com/api/" target="_blank">kawalcorona.com/api/</a>
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/future_jobs" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/16.png" class="card-img-top" alt="Portfolio 16">
-              <div class="card-body">
-                <p class="card-text">May '21 | Future Jobs App with Flutter Provider State Management | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/calculator_app" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/15.png" class="card-img-top" alt="Portfolio 15">
-              <div class="card-body">
-                <p class="card-text">May '21 | Calculator App with Flutter</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/multi_provider" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/14.png" class="card-img-top" alt="Portfolio 14">
-              <div class="card-body">
-                <p class="card-text">May '21 | Multi Provider App with Flutter | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/flutter_provider" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/13.png" class="card-img-top" alt="Portfolio 13">
-              <div class="card-body">
-                <p class="card-text">May '21 | Provider State Management App with Flutter | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/movie_app_dicoding" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/12.png" class="card-img-top" alt="Portfolio 12">
-              <div class="card-body">
-                <p class="card-text">May '21 | Movie Info App with Flutter for Dicoding Submission</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/simple_notes_app" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/11.png" class="card-img-top" alt="Portfolio 11">
-              <div class="card-body">
-                <p class="card-text">May '21 | Simple Notes App with Flutter Provider | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://ridhaaf.github.io/wisata_bandung_web/" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/10.png" class="card-img-top" alt="Portfolio 01">
-              <div class="card-body">
-                <p class="card-text">May '21 | Tourism Places Website with Flutter Web | Dicoding</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/wisata_bandung" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/9.png" class="card-img-top" alt="Portfolio 9">
-              <div class="card-body">
-                <p class="card-text">May '21 | Tourism Places App with Flutter | Dicoding</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://ridhaaf.github.io/flutter_web/" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/8.png" class="card-img-top" alt="Portfolio 8">
-              <div class="card-body">
-                <p class="card-text">May '21 | Landing Page Website with Flutter | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/cashy_app" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/7.png" class="card-img-top" alt="Portfolio 7">
-              <div class="card-body">
-                <p class="card-text">Apr '21 | Landing Page Cashy App with Flutter | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/food_market" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/6.png" class="card-img-top" alt="Portfolio 6">
-              <div class="card-body">
-                <p class="card-text">Mar '21 | Full-Stack Laravel Flutter: FoodMarket Apps | BWA</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/nameless-store_master" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/5.png" class="card-img-top" alt="Portfolio 5">
-              <div class="card-body">
-                <p class="card-text">Dec '20 | Tugas Besar Mata Kuliah Rekayasa Web</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://youtu.be/P1tcR6kPomY" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/4.png" class="card-img-top" alt="Portfolio 4">
-              <div class="card-body">
-                <p class="card-text">May '20 | Tugas Besar Mata Kuliah Pembangunan Aplikasi Multimedia</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://www.figma.com/file/tAWx456tMPIFgHp9e9hy4M/WaPid-19" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/3.png" class="card-img-top" alt="Portfolio 3">
-              <div class="card-body">
-                <p class="card-text">Apr '20 | Tugas Besar Mata Kuliah Interaksi Manusia Komputer</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://github.com/RidhaAF/rekweb2020_183040083_tubespw" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/2.png" class="card-img-top" alt="Portfolio 2">
-              <div class="card-body">
-                <p class="card-text">May '19 | Tugas Besar Mata Kuliah Pemrograman Web</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-3">
-          <a href="https://ridhaaf.github.io/GoodArtStudio/" target="_blank">
-            <div class="card">
-              <img src="img/portfolio/1.png" class="card-img-top" alt="Portfolio 1">
-              <div class="card-body">
-                <p class="card-text">Dec '18 | Tugas Besar Mata Kuliah Internet & Teknologi Web</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#222" fill-opacity="1"
-        d="M0,256L40,240C80,224,160,192,240,176C320,160,400,160,480,186.7C560,213,640,267,720,272C800,277,880,235,960,197.3C1040,160,1120,128,1200,106.7C1280,85,1360,75,1400,69.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- End Project -->
+    </footer>
+    <!-- Footer End -->
 
-  <!-- Contact -->
-  <section id="contact" class="contact">
-    <div class="container text-white">
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <h2 class="fw-bolder">Contact Me</h2>
-          <div class="row">
-            <div class="col-1">
-              <i class="bi bi-whatsapp fs-5 pe-3"></i>
-            </div>
-            <div class="col">
-              <p>+62 812 2007 9559</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-1">
-              <i class="bi bi-envelope fs-5 pe-3"></i>
-            </div>
-            <div class="col">
-              <p>ridhaaf@gmail.com</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-1">
-              <i class="bi bi-geo-alt fs-5 pe-3"></i>
-            </div>
-            <div class="col">
-              <p>Bandung, West Java, Indonesia</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-            <strong>Thank You!</strong> Your message has been sent.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          </div>
-          <form name="ridhaaf-contact-form">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name" name="name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3" name="message"></textarea>
-            </div>
-            <div class="d-grid gap-2">
-              <button type="submit" class="btn btn-send"><i class="bi bi-cursor-fill"></i> <b>Send</b></button>
-
-              <button class="btn btn-sending d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Sending...
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#151515" fill-opacity="1"
-        d="M0,96L40,128C80,160,160,224,240,240C320,256,400,224,480,186.7C560,149,640,107,720,117.3C800,128,880,192,960,181.3C1040,171,1120,85,1200,58.7C1280,32,1360,64,1400,80L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- End Contact -->
-
-  <!-- Footer -->
-  <footer class="text-white text-center p-5">
-    <p>&copy; 2021 | <a href="https://www.instagram.com/ridhaaf/" target="_blank" class="fw-bold">Ridha Ahmad
-        Firdaus</a>, All Rights Reserved.</p>
-  </footer>
-  <!-- End Footer -->
-
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
-  </script>
-
-  <script>
-    $(document).ready(function () {
-      $('.nav-link').on('click', function (e) {
-        $('.nav-link').removeClass('active');
-        $(this).addClass('active');
-      });
-    });
-  </script>
-
-  <script>
-    const scriptURL =
-      'https://script.google.com/macros/s/AKfycbzpyNgpW8iI8ThiPT6TZnAlw5ZrU7VRHQEwC3vg2CPxgl3g3y81CGeZKpH9WJBMz7sBsA/exec'
-    const form = document.forms['ridhaaf-contact-form'];
-    const btnSend = document.querySelector('.btn-send');
-    const btnSending = document.querySelector('.btn-sending');
-    const myAlert = document.querySelector('.my-alert');
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      // ketika tombol submit diklik
-      // tampilkan tombol sending, hilangkan tombol send
-      btnSending.classList.toggle('d-none');
-      btnSend.classList.toggle('d-none');
-      fetch(scriptURL, {
-          method: 'POST',
-          body: new FormData(form)
-        })
-        .then((response) => {
-          // tampilkan tombol send, hilangkan tombol sending
-          btnSending.classList.toggle('d-none');
-          btnSend.classList.toggle('d-none');
-          // tampilkan alert
-          myAlert.classList.toggle('d-none');
-          // reset formnya
-          form.reset();
-          console.log('Success!', response);
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
+    <script src="dist/js/script.js"></script>
 </body>
 
 </html>
