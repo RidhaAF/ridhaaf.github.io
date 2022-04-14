@@ -1,5 +1,6 @@
 module.exports = {
   content: ["index.html"],
+  darkMode: "class",
   theme: {
     container: {
       center: true,
@@ -7,14 +8,14 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#059669',
-        secondary: '#63748b',
-        dark: '#0f172a',
+        primary: "#059669",
+        secondary: "#63748b",
+        dark: "#0f172a",
       },
       screens: {
-        '2xl': '1320px',
-      }
+        "2xl": "1320px",
+      },
     },
   },
   plugins: [],
-}
+};
