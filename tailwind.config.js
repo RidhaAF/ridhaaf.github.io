@@ -1,5 +1,12 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-  content: ["index.html"],
+  content: [
+    "index.html",
+    "./index.html",
+    "*.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx,html}",
+  ],
   darkMode: "class",
   theme: {
     container: {
@@ -8,6 +15,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        ...colors,
         primary: "#059669",
         secondary: "#63748b",
         dark: "#0f172a",
