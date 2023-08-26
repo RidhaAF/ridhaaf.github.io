@@ -9,7 +9,7 @@ function fetchProject() {
       const sorted = data["result"].reverse();
       sorted.forEach(function (item) {
         output += `
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/3">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="${item.image}" alt="${item.name}" width="w-full" />
             </div>
