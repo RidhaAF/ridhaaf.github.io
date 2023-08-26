@@ -231,6 +231,14 @@
       "date": "2023-08-01",
       "image": "dist/img/project/29.png",
       "url": "https://github.com/RidhaAF/movie_time"
+    },
+    {
+      "id": 30,
+      "name": "Al-Quran",
+      "description": "Al-Quran App using Flutter | API from https://api.quran.gading.dev/",
+      "date": "2023-08-01",
+      "image": "dist/img/project/30.png",
+      "url": "https://github.com/RidhaAF/al_quran"
     }
   ]
 }
