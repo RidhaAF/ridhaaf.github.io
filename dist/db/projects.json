@@ -195,7 +195,7 @@
     {
       "id": 25,
       "name": "UR - Self Order App",
-      "description": "UR - Self Order is a convenient app that simplifies the process of ordering food from your favorite restaurant. All you need to do is take a seat and place your order at the table, and your food will be promptly delivered.",
+      "description": "UR - Self Order is a convenient app that simplifies the process of ordering food from your favorite restaurant. All you need to do is take a seat and place your order at the table, and your food will be promptly delivered. Created using Flutter",
       "date": "2022-08-08",
       "image": "dist/img/project/25.png",
       "url": "https://play.google.com/store/apps/details?id=com.urhub.android.app&hl=id"
@@ -203,7 +203,7 @@
     {
       "id": 26,
       "name": "UR POS - App Kasir & Wirausaha",
-      "description": "UR POS is an application designed to help partners or merchants manage their point-of-sale operations, including order processing and report viewing. It's a tool that simplifies these tasks for businesses.",
+      "description": "UR POS is an application designed to help partners or merchants manage their point-of-sale operations, including order processing and report viewing. It's a tool that simplifies these tasks for businesses. Created using Flutter",
       "date": "2022-08-08",
       "image": "dist/img/project/26.png",
       "url": "https://play.google.com/store/apps/details?id=com.urpartner&hl=in"
@@ -227,7 +227,7 @@
     {
       "id": 29,
       "name": "Movie Time",
-      "description": "Movie Time is a movie recommendation application for users. Movie Time shows the latest, popular & upcoming movies/series.",
+      "description": "Movie Time is a movie recommendation application for users. Movie Time shows the latest, popular & upcoming movies/series. Created using Flutter",
       "date": "2023-08-01",
       "image": "dist/img/project/29.png",
       "url": "https://play.google.com/store/apps/details?id=id.co.ridhaaf.movie_time"
@@ -238,6 +238,22 @@
       "description": "Al-Quran App using Flutter | API from https://api.quran.gading.dev/",
       "date": "2023-08-01",
       "image": "dist/img/project/30.png",
+      "url": "https://play.google.com/store/apps/details?id=com.ridhaaf.al_quran"
+    },
+    {
+      "id": 31,
+      "name": "Air Quality Index",
+      "description": "This is a simple app that shows the air quality index of a city. The data is fetched from AirVisual API. Created using Flutter",
+      "date": "2023-08-01",
+      "image": "dist/img/project/31.png",
+      "url": "https://github.com/RidhaAF/air_quality_index"
+    },
+    {
+      "id": 32,
+      "name": "Rock Paper Scissors",
+      "description": "Rock Paper Scissors is a simple hand game that is often used to make quick decisions between two people. The game is typically played by two individuals who each simultaneously form one of three shapes with an outstretched hand. Created using Flutter",
+      "date": "2023-09-01",
+      "image": "dist/img/project/32.png",
       "url": "https://play.google.com/store/apps/details?id=com.ridhaaf.al_quran"
     }
   ]
