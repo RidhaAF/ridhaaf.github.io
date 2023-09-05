@@ -254,7 +254,7 @@
       "description": "Rock Paper Scissors is a simple hand game that is often used to make quick decisions between two people. The game is typically played by two individuals who each simultaneously form one of three shapes with an outstretched hand. Created using Flutter",
       "date": "2023-09-01",
       "image": "dist/img/project/32.png",
-      "url": "https://github.com/RidhaAF/rock_paper_scissors"
+      "url": "https://play.google.com/store/apps/details?id=com.ridhaaf.rock_paper_scissors"
     }
   ]
 }
